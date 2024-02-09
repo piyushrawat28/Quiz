@@ -26,7 +26,7 @@ app.get("/logout",(req,res)=>{
 })
 
 app.get("/start",(req,res)=>{
-    res.render("Quiz");p
+    res.render("Quiz");
 })
 
 app.get("/", (req, res) => {
